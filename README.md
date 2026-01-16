@@ -153,6 +153,7 @@ A high-accuracy **Formula Field based on star rating system** that converts nume
 ## 📸 Screenshots & Visuals.
 
 ### Home Page
+![FilmClub Home](Screenshots/sf-filmclub-app-img-9.jpg)
 ![FilmClub Home](Screenshots/sf-filmclub-app-img-1.jpg)
 
 ### Movie Record Page
