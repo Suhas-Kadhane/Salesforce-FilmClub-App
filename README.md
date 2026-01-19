@@ -6,6 +6,7 @@ FilmClub is a custom **Salesforce Lightning application** built to manage a pers
 This project marks my **first deep dive into Salesforce development**, covering object modeling, UI customization, advanced __Flow Builder__ logic, and __REST API__ integration.
 
 ---
+
 ## 📝 Project Identity
 
 - Developer: [__Suhas Kadhane__]
@@ -22,6 +23,12 @@ FilmClub allows users to:
 - Visualize IMDb ratings with a **precision star-rating system**
 
 The app demonstrates how Salesforce can be transformed beyond CRM into a **personalized, automated content platform**.
+
+## 📺 Demo
+
+<p align="center">
+<img src="demo.gif" alt="Demo" width="800" height="550" />
+</p>
 
 ---
 
