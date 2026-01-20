@@ -26,8 +26,16 @@ The app demonstrates how Salesforce can be transformed beyond CRM into a **perso
 
 ## 📺 Demo
 
+__Before UI/UX Enahnacement__
+
 <p align="center">
-<img src="demo.gif" alt="Demo" width="800" height="550" />
+<img src="Demos/App Demo.gif" alt="Demo" width="800" height="550" />
+</p>
+
+__After UI/UX Enhancement__
+
+<p align="center">
+<img src="Demos/Home Page UI UX Demo.gif" alt="Demo" width="800" height="550" />
 </p>
 
 ---
