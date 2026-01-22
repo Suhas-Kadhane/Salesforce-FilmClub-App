@@ -1,4 +1,4 @@
-# 🎬 Project FilmClub: Agentforce & OMDb API Integration Post-Mortem
+# 🎬 Agentforce & OMDb API Integration Post-Mortem
 
 ## 📌 Project Context
 This project aims to build an autonomous AI Agent (Agentforce Agent) within a **Salesforce Developer Org** that acts as a Movie Librarian. The agent is designed to take a movie title from a user via chat, fetch metadata (Director, Year, Plot) from the **OMDb API**, and create a record in a custom `Movie__c` object.
