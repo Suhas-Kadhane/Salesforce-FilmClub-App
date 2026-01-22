@@ -10,6 +10,23 @@ During the implementation of the OMDb API integration, a "Silent Data Failure" w
 - **API Behavior:** The OMDb API returns a JSON response: `{"Response":"False","Error":"Movie not found!"}`.
 - **Salesforce Behavior:** The Flow continues to the `Create Records` element. Since the API variables are empty (null), Salesforce creates a record with the user's input as the Name, but all other fetched fields (Year, Plot, Poster URL, Rating) remain Blank.
 
+**Anomaly Examples**
+
+**1. The Incorrect Movie Name** 
+
+<p align="center">
+  <img src="../../Screenshots/imdb-anomaly-1.jpg" alt="Anomaly 1" width="800">
+</p>
+
+
+**2. The Correct Movie Name**
+
+<p align="center">
+  <img src="../../Screenshots/imdb-anomaly-2.jpg" alt="Anomaly 1" width="800">
+</p>
+
+---
+
 **Technical Root Cause**
 
 The OMDb API is a **literal-string matching service**. It does not currently utilize "Fuzzy Logic" for basic search queries. If the string contains incorrect punctuation or Roman numeral variations, the API fails to return an object. Because the Flow was not originally configured with a Fault Path or a Response Validation check, it proceeded to commit an incomplete record to the `Movie_T__c` object.
