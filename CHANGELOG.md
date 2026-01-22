@@ -33,7 +33,7 @@ Instead of a generic error, I used themed branding:
 ""_🕵️ A Case of Double Identity... It looks like {!Movie_Title_Search} is already in the library._""
 
 
-![Duplicate Entry](Screenshot Placement)
+![When Movie Already Exists](Screenshots/movie-duplicate-screen-2.jpg)
 
 
 #### 2. The "Smart-Link Shortcut"
@@ -72,7 +72,7 @@ To maintain the "Cinephile" persona of the app, I used evocative language:
 
 "_🍿 Lights, camera, action! {!Movie_Title_Search} has officially joined the movie library! We’ve pulled the intel from IMDb and added it to your collection._"
 
-![New Entry](Screenshot Placement)
+![New Movie Entry](Screenshots/movie-success-screen-2.jpg)
 
 
 #### 2. The "New Arrival" Dynamic Link
