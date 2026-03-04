@@ -7,14 +7,14 @@ This project marks my **first deep dive into Salesforce development**, covering 
 
 ---
 
-## 📝 Project Identity
+## Project Identity
 
 - Developer: [__Suhas Kadhane__]
 - Platform: Salesforce Developer Edition with Agentforce and Data Cloud
 - Goal: To transform a manual cinema tracking tool into an automated, API-driven library using Salesforce Flow and OMDb.
 
 
-## 🎥 Overview
+## Overview
 
 FilmClub allows users to:
 - Discover and store movies in Salesforce  
@@ -24,7 +24,7 @@ FilmClub allows users to:
 
 The app demonstrates how Salesforce can be transformed beyond CRM into a **personalized, automated content platform**.
 
-## 📺 Demo
+## Demo
 
 **New UI/UX Update [Jan 22 Build]**
 
@@ -46,9 +46,9 @@ The app demonstrates how Salesforce can be transformed beyond CRM into a **perso
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 1️⃣ The Movie Core (Object Modeling)
+### The Movie Core (Object Modeling)
 - **Custom Object**: `Movie Title` to store cinema data  
 - **Dynamic UI**: Lightning Record Pages displaying movie posters via formula fields  
 - **Social Cinema**: Salesforce Chatter enabled for movie discussions  
@@ -58,7 +58,7 @@ The app demonstrates how Salesforce can be transformed beyond CRM into a **perso
 
 ---
 
-### 2️⃣ The “Librarian” (OMDb API Integration)
+### The “Librarian” (OMDb API Integration)
 The heart of the app is a **Lightning Screen Flow** automates movie creation:
 
 - **Secure Integration**
@@ -72,7 +72,7 @@ The heart of the app is a **Lightning Screen Flow** automates movie creation:
 
 ---
 
-### 3️⃣ The Critic’s Precision (Star Ratings)
+### The Critic’s Precision (Star Ratings)
 A high-accuracy **Formula Field based on star rating system** that converts numerical scores into a visual 10-point star system:
 
 - Converts IMDb numeric scores into a **10-point visual star scale**
@@ -82,7 +82,7 @@ A high-accuracy **Formula Field based on star rating system** that converts nume
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Area | Technology |
 |----|----|
@@ -95,7 +95,7 @@ A high-accuracy **Formula Field based on star rating system** that converts nume
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - Salesforce **Developer Edition** org  
@@ -146,7 +146,7 @@ A high-accuracy **Formula Field based on star rating system** that converts nume
 
 ---
 
-## 🏗️ Project Timeline & Evolution
+## Project Timeline & Evolution
 
 ### Phase 1: The Foundation
 - Built the __FilmClub__ Lightning App.
@@ -171,7 +171,7 @@ A high-accuracy **Formula Field based on star rating system** that converts nume
 
 ---
 
-## 📸 Screenshots & Visuals.
+## Screenshots & Visuals.
 
 ### Home Page
 ![FilmClub Home](Screenshots/sf-filmclub-app-img-9.jpg)
@@ -194,7 +194,7 @@ A high-accuracy **Formula Field based on star rating system** that converts nume
 
 ---
 
-## 🧠 Lessons Learned
+## Lessons Learned
 
 - **API Security**: Learned the importance of Permission Sets and Principals when working with External Credentials.
 - **Flow Debugging**: Mastered the Flow Debugger to trace "401 Unauthorized" errors back to API key activation and callout failures.
@@ -203,6 +203,6 @@ A high-accuracy **Formula Field based on star rating system** that converts nume
 
 ---
 
-## 🌟 Acknowledgments
+## Acknowledgments
 
 This project was built as a deeper journey into the Salesforce development ecosystem, proving that the right logic and a bit of "FilmClub" spirit, you can turn a CRM into a powerful, automated entertainment hub.
