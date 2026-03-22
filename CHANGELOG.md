@@ -1,12 +1,12 @@
 ## [Unreleased]
 
-### 🚀 Planned Features
+### Planned Features
 - **Home Page Quick Stats Bar:** A dashboard-style component to display total movie count and average ratings for high-level visibility.
 - **Agentforce Service Agent:** Implementing an autonomous agent grounded in Data Cloud to handle member FAQ and RSVP management.
 - **OMDb Error Handling:** Adding a "Movie Not Found" logic branch to prevent empty record creation when the API returns no results.
 
 ---
-# 🎞️ FilmClub App: Changelog
+# FilmClub App: Changelog
 
 ## [1.2.0] - 2026-01-22
 ### 📽️ Enhancing User Experience (UX) in FilmClub Flow
@@ -53,7 +53,7 @@ The most critical UX addition was the **Direct Navigation Link**.
 ---
 
 ## [1.1.0] - 2026-01-22
-### ✨ Designing the "Success Feedback Loop" in FilmClub Flow
+### Designing the "Success Feedback Loop" in FilmClub Flow
 
 ### The Problem: The "Black Box" Submission
 
