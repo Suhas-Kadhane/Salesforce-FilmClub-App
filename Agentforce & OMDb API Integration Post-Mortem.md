@@ -1,6 +1,6 @@
-# 🎬 Agentforce & OMDb API Integration Post-Mortem
+# Agentforce & OMDb API Integration Post-Mortem
 
-## 📌 Project Context
+## Project Context
 This project aims to build an autonomous AI Agent (Agentforce Agent) within a **Salesforce Developer Org** that acts as a Movie Librarian. The agent is designed to take a movie title from a user via chat, fetch metadata (Director, Year, Plot) from the **OMDb API**, and create a record in a custom `Movie__c` object.
 
 __Core Tech Stack:__
@@ -12,7 +12,7 @@ __Core Tech Stack:__
 
 ---
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 * **AI Layer:** Salesforce Agentforce (Einstein Copilot)
 * **Logic Layer:** Autolaunched Flow (`Agent_Action_Add_Movie`)
 * **Integration Layer:** Named Credentials & External Services (Open Movie Database API)
@@ -20,7 +20,7 @@ __Core Tech Stack:__
 
 ---
 
-## 🔍 Specific AI Agent Error Log (Technical Breakdown)
+## Specific AI Agent Error Log (Technical Breakdown)
 
 | **Issue/Category** | **Specific Error/Response** | **What was happening under the hood** |
 | :--- | :--- | :--- |
@@ -33,7 +33,7 @@ __Core Tech Stack:__
 
 ---
 
-## ⚠️ The Battle Log: Challenges & Errors
+## The Battle Log: Challenges & Errors
 
 During the 24-hour integration window, we encountered several high-level "handshake" failures between the AI and the Salesforce Metadata.
 
@@ -60,7 +60,7 @@ During the 24-hour integration window, we encountered several high-level "handsh
 
 ---
 
-## 📝 Documented Error Codes & Behaviors
+## Documented Error Codes & Behaviors
 
 | Error/Behavior | Platform Message | Technical Resolution |
 | :--- | :--- | :--- |
@@ -71,7 +71,7 @@ During the 24-hour integration window, we encountered several high-level "handsh
 
 ---
 
-## 🛠️ Lessons Learned for Salesforce Engineers
+## Lessons Learned for Salesforce Engineers
 
 1.  **Instruction Sincerity:** AI Agents in Salesforce respond better to "Command" syntax than "Conversational" syntax when triggering Flows.
 2.  **The 1% Rule:** If an input variable is even slightly ambiguous, the Agent will default to a "clarification question" which often breaks the logic flow in early-stage Dev Orgs.
@@ -80,5 +80,5 @@ During the 24-hour integration window, we encountered several high-level "handsh
 
 ---
 
-## 📅 Final Status
+## Final Status
 The **Flow Logic** and **API Integration** are 100% verified. The **Agent Connection** is currently being rebuilt from scratch (`FilmClub_v2`) to eliminate "metadata debt" and instruction clutter accumulated during initial debugging.
