@@ -1,4 +1,4 @@
-# 🎬 FilmClub – Salesforce Movie Library App  
+# FilmClub – Salesforce Movie Library App  
 > *“The first rule of FilmClub is: You MUST talk about films!”*
 
 FilmClub is a custom **Salesforce Lightning application** built to manage a personal movie library. It evolves from a manual data-entry tool into an **automated, API-integrated cinema hub** that fetches real-time movie data.
