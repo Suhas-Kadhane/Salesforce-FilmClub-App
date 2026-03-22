@@ -1,4 +1,4 @@
-# 📜 Engineering Log: Troubleshooting & Error Resolution
+# Engineering Log: Troubleshooting & Error Resolution
 
 This section documents the "Battle Scars", the errors encountered during development and how they were solved.
 
