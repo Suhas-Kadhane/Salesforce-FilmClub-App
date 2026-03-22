@@ -1,4 +1,4 @@
-# 🛠️ Engineering Log: Optimization & Debugging Sprint
+# Engineering Log: Optimization & Debugging Sprint
 
 This document tracks the technical challenges, investigations, and resolutions encountered during the final development phase of the **FilmClub** Salesforce App.
 
