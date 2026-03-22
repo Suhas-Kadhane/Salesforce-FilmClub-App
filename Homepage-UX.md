@@ -1,14 +1,14 @@
-# 🎨 FilmClub UI/UX: The Executive Suite Transformation
+# FilmClub UI/UX: The Executive Suite Transformation
 
 This document outlines the step-by-step branding and layout customizations performed to transform the standard Salesforce Home Page into a premium, cinematic "Executive Suite."
 
-## 🖼️ Before vs. After
+## Before vs. After
 * **Initial State:** Standard Salesforce "Sales" layout with feed components, bookmarks, and text-only recent items.
 * **Current State:** A high-end Media Command Center featuring visual movie posters, curated "Top Shelf" lists, and centered search functionality.
 
 ---
 
-## 🛠️ UI Enhancements & Components
+## UI Enhancements & Components
 
 ### 1. Cinematic Header (Rich Text)
 * **Component:** Rich Text
@@ -34,7 +34,7 @@ This document outlines the step-by-step branding and layout customizations perfo
 
 ---
 
-## 📐 Responsive Design & Consistency Fixes
+## Responsive Design & Consistency Fixes
 
 | Issue Encountered | Technical Solution |
 | :--- | :--- |
@@ -44,7 +44,7 @@ This document outlines the step-by-step branding and layout customizations perfo
 
 ---
 
-## 🚀 Future Visual Roadmap
+## Future Visual Roadmap
 - [ ] **Quick Stats Bar:** Add a Rich Text metric bar (Total Movies \| Avg Rating \| Unwatched).
 - [ ] **Hero Component:** A "Featured Movie" spotlight using a single-record detail view.
 - [ ] **Dark Mode Styling:** Exploring custom CSS/Themes to match a "Cinema" aesthetic.
